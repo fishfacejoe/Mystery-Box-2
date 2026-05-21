@@ -3,7 +3,7 @@ import json
 from openpyxl import load_workbook
 # python -m http.server
 # localhost:8000
-excel_file_name = "Myster Box 2 (eggsdee).xlsx"
+excel_file_name = "Mystery Box 2 (eggsdee).xlsx"
 
 def excel_to_json(file_path, output_path):
     wb = load_workbook(file_path, data_only=True)
